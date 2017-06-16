@@ -24,10 +24,15 @@ module.exports = class extends Generator {
   }
 
   writing() {
-    this.fs.copy(
-      this.templatePath('dummyfile.txt'),
-      this.destinationPath('dummyfile.txt')
-    );
+    this.fs.copy(this.templatePath('src'), this.destinationPath('src'));
+    this.fs.copy(this.templatePath('gulpfile.js'), this.destinationPath('gulpfile.js'));
+
+    
+    this.fs.copy(this.templatePath('bower.json'), this.destinationPath('bower.json'));
+    this.fs.copy(this.templatePath('package.json'), this.destinationPath('package.json'));
+
+    this.fs.copy(this.templatePath('.eslintrc'), this.destinationPath('.eslintrc'));
+    this.fs.copy(this.templatePath('.gitignore'), this.destinationPath('.gitignore'));
   }
 
   install() {
