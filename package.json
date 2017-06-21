@@ -1,8 +1,8 @@
 {
   "name": "generator-gulp-static",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Static site managed by Gulp; uses pug, es7, less; includes jquery-slim, fetch, bootstrapv4",
-  "homepage": "",
+  "homepage": "https://github.com/andersoo/gulp-pug-es7-less",
   "author": {
     "name": "anders",
     "email": "anders.oo.chi@gmail.com",

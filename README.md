@@ -1,9 +1,14 @@
 # generator-gulp-static [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
-> Static site managed by Gulp; uses pug, es7, less; includes jquery-slim, fetch, bootstrapv4
+
+A template static site managed by Gulp; uses pug, es7, less; includes jquery-slim, fetch, bootstrapv4
+
+The template itself is managed as a git submodule for easier managements, for the details of the template, please refer to [its git here](https://github.com/andersoo/gulp-pug-es7-less).
 
 ## Installation
 
 First, install [Yeoman](http://yeoman.io) and generator-gulp-static using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
+
+Feel free to [learn more about Yeoman](http://yeoman.io/).
 
 ```bash
 npm install -g yo
@@ -15,13 +20,6 @@ Then generate your new project:
 ```bash
 yo gulp-static
 ```
-
-## Getting To Know Yeoman
-
- * Yeoman has a heart of gold.
- * Yeoman is a person with feelings and opinions, but is very easy to work with.
- * Yeoman can be too opinionated at times but is easily convinced not to be.
- * Feel free to [learn more about Yeoman](http://yeoman.io/).
 
 ## License
 
